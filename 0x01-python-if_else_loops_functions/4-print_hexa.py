@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def magic_calculation(a, b):
-    return(98 + a ** b)
+for a in range(0, 99):
+    print("{} = 0x{:x}".format(a, a))
